@@ -1,7 +1,7 @@
 #!/bin/bash
 
-mkdir ~/getmacapps_temp
-cd ~/getmacapps_temp
+mkdir ~/TMP_APPS
+cd ~/TMP_APPS
 
 # Installing Chrome
 curl -L -O "https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg"
