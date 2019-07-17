@@ -10,6 +10,12 @@ cd ~/TMP_APPS
 #hdiutil unmount "/Volumes/Google Chrome"
 #rm googlechrome.dmg
 
+#curl -L -o FortiClientOnlineInstaller_6.dmg "https://filestore.fortinet.com/forticlient/downloads/FortiClientOnlineInstaller_6.0.dmg
+#hdiutil mount -nobrowse FortiClientOnlineInstaller_6.dmg
+# pkg install file /Volumes/FortiClientUpdate/FortiClientUpdate.app
+#hdiutil unmount "/Volumes/FortiClientUpdate"
+#rm FortiClientOnlineInstaller_6.dmg
+
 # Installing Firefox
 curl -L -o Firefox.dmg "http://download.mozilla.org/?product=firefox-latest&os=osx&lang=en-US"
 hdiutil mount -nobrowse Firefox.dmg
