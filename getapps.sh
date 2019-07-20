@@ -3,6 +3,8 @@
 mkdir ~/TMP_APPS
 cd ~/TMP_APPS
 
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
 # Installing Chrome
 #curl -L -O "https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg"
 #hdiutil mount -nobrowse googlechrome.dmg
